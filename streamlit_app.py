@@ -3,6 +3,9 @@ import docx
 import openai
 import pandas as pd
 
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\igxb28c\AppData\Local\Programs\Tesseract-OCR'
+
 st.set_page_config(page_title="AI Manual Test Case Generator", layout="wide")
 st.title("📄 AI-Powered Manual Test Case Generator from KT Document")
 
